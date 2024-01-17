@@ -47,6 +47,51 @@
                 {"pokedex":2,"nivell": 16},
                 {"pokedex":3,"nivell": 32}
             ]
+        },
+        {
+            "pokedex": 143,
+            "nom": "Snorlax",
+            "gen": 1,
+            "categoria": "Dormir",
+            "nivell_actual": 1,
+            "tipus": ["Normal"],
+            "pes":{
+                "unitat": "Kg",
+                "quantitat": 460
+            },
+            "altura":{
+                "unitat": "M",
+                "quantitat": 2.1 
+            },
+            "estadistiques":{
+                "velocitat": 2,
+                "fortaleza": 5,
+                "precisió": 3,
+                "resistència": 5,
+                "salt": 2
+            },
+            "moviments":[
+                {
+                    "nom":"Antojo",
+                    "tipus":"Normal",
+                    "clase":"Fisic",
+                    "potencia":60,
+                    "precisio": 100,
+                    "contacto": "True",
+                    "descripcio:":"Causa daño y roba el objeto del rival."
+                },
+                {
+                    "nom":"Descanso",
+                    "tipus":"Psiquico",
+                    "clase":"Estado",
+                    "potencia": null,
+                    "precisio": null,
+                    "contacto": "False",
+                    "descripcio:":"Te duerme y recuperas la totalidad de los PS."
+                }
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0b/latest/20160904204605/Snorlax.png/300px-Snorlax.png",
+            "evolucions":[]
         }
     ]
 }
