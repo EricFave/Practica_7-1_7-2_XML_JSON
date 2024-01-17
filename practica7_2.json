@@ -29,7 +29,7 @@
                     "clase":"Fisic",
                     "potencia":40,
                     "precisio": 100,
-                    "contacto": "True",
+                    "contacto": true,
                     "descripcio:":"Embiste con todo el cuerpo."
                 },
                 {
@@ -38,7 +38,7 @@
                     "clase":"Fisic",
                     "potencia":45,
                     "precisio": 100,
-                    "contacto": "True",
+                    "contacto": true,
                     "descripcio:":"L'enemic és colpejat amb vinyes esveltes i esveltes per causar danys."
                 }
             ],
@@ -77,7 +77,7 @@
                     "clase":"Fisic",
                     "potencia":60,
                     "precisio": 100,
-                    "contacto": "True",
+                    "contacto": true,
                     "descripcio:":"Causa daño y roba el objeto del rival."
                 },
                 {
@@ -86,7 +86,7 @@
                     "clase":"Estado",
                     "potencia": null,
                     "precisio": null,
-                    "contacto": "False",
+                    "contacto": false,
                     "descripcio:":"Te duerme y recuperas la totalidad de los PS."
                 }
             ],
