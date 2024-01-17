@@ -1,0 +1,52 @@
+{
+    "pokemon":[
+        {
+            "pokedex": 1,
+            "nom": "Bulbasaur",
+            "gen": 1,
+            "categoria": "Semilla",
+            "nivell_actual": 1,
+            "tipus": ["Planta", "Verinós"],
+            "pes":{
+                "unitat": "Kg",
+                "quantitat": 6.9
+            },
+            "altura":{
+                "unitat": "M",
+                "quantitat": 0.7 
+            },
+            "estadistiques":{
+                "velocitat": 3,
+                "fortaleza": 3,
+                "precisió": 4,
+                "resistència": 4,
+                "salt": 3
+            },
+            "moviments":[
+                {
+                    "nom":"Placaje",
+                    "tipus":"Normal",
+                    "clase":"Fisic",
+                    "potencia":40,
+                    "precisio": 100,
+                    "contacto": "True",
+                    "descripcio:":"Embiste con todo el cuerpo."
+                },
+                {
+                    "nom":"Látigo cepa",
+                    "tipus":"Planta",
+                    "clase":"Fisic",
+                    "potencia":45,
+                    "precisio": 100,
+                    "contacto": "True",
+                    "descripcio:":"L'enemic és colpejat amb vinyes esveltes i esveltes per causar danys."
+                }
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/8/8c/Bulbasaur_en_la_primera_generaci%C3%B3n.png",
+            "evolucions":[
+                {"pokedex":2,"nivell": 16},
+                {"pokedex":3,"nivell": 32}
+            ]
+        }
+    ]
+}
